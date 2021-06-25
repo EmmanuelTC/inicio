@@ -70,7 +70,7 @@ export default function SwipeableTemporaryDrawer() {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
-                <ListItem component={Link} to="/" button selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 0)}>
+                <ListItem component={Link} to="/CV" button selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 0)}>
                     <ListItemIcon><InboxIcon style={{ color: 'white' }}/></ListItemIcon>
                     <ListItemText primary="Inicio" />
                 </ListItem>

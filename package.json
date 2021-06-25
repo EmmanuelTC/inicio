@@ -1,6 +1,6 @@
 {
-  "homepage": "http://emmanueltc.github.io/cv",
-  "name": "cv",
+  "homepage": "http://emmanueltc.github.io/CV",
+  "name": "CV",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
