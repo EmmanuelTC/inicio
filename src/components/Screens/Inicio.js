@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import logo from '../../logo.svg';
-//import NS from '../../assets/NSLogo.png';
+import NET from '../../assets/NETlogo.png';
 import Typical from 'react-typical'
 
 const useStyles = makeStyles((theme) => ({
@@ -18,6 +18,7 @@ const Inicio = () => {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
+                    <img id="slide" src={NET} className="NET-logo" alt="NETlogo" />
                     <h2><code>Emmanuel Trujillo Castillo</code></h2>
                     
                     <p style={{ fontFamily: 'monospace' }}>

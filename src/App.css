@@ -7,9 +7,20 @@
   pointer-events: none;
 }
 
+.NET-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 4s alternate;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .NET-logo {
+    animation: NET-logo-animation infinite 2s alternate;
   }
 }
 
@@ -37,4 +48,45 @@
     transform: scale3d(10);
     transform: rotate(720deg);
   }
+}
+
+@keyframes NET-logo-animation {
+  from {
+    transform: scale3d(0);
+    transform: rotate(-25deg);
+  }
+  to {
+    transform: scale3d(10);
+    transform: rotate(25deg);
+  }
+}
+
+@-webkit-keyframes updown-slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 0px;
+    top: 20px;
+  }
+}
+
+@keyframes updown-slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 0px;
+    top: 20px;
+  }
+}
+
+#slide {
+  -webkit-animation: updown-slide 3s;
+  animation: updown-slide infinite 1s alternate;
+  width: 20%;
+  height:20%;
+  position: relative;
 }
