@@ -31,9 +31,9 @@ const Inicio = () => {
                     <Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
                         <Box style={{ paddingBottom: "20vmin" }} display="flex" >
                             <Box flexGrow={1} className={classes.Dentro}>
-                                <a href="https://emmanueltc.github.io/inicio/">
+                                {/*<a href="https://emmanueltc.github.io/inicio/">*/}
                                     <img src={logo} className="App-logo" alt="logo" />
-                                </a>
+                                {/*</a>*/}
                                 {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
                             </Box>
                             <Box flexGrow={1} className={classes.Dentro}>
