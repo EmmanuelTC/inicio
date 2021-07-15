@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-.NET-logo {
+.NET_logo {
   height: 30vmin;
   pointer-events: none;
 }
@@ -19,8 +19,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .NET-logo {
-    animation: NET-logo-animation infinite 2s alternate;
+  .NET_logo {
+    animation: NET_logo-animation infinite 2s alternate;
   }
 }
 
@@ -50,7 +50,7 @@
   }
 }
 
-@keyframes NET-logo-animation {
+@keyframes NET_logo-animation {
   from {
     transform: scale3d(0);
     transform: rotate(-25deg);
