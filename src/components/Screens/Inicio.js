@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import logo from '../../logo.svg';
 //import NS from '../../assets/NSLogo.png';
 import Typical from 'react-typical'
+//import FancyText from 'react-fancytext'
 
 const useStyles = makeStyles((theme) => ({
     otro: {
@@ -19,6 +20,7 @@ const Inicio = () => {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h2><code>Emmanuel Trujillo Castillo</code></h2>
+ {/*                   <FancyText>a</FancyText>*/}
                     
                     <p style={{ fontFamily: 'monospace' }}>
                         <Typical
