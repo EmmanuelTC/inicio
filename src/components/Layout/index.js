@@ -27,7 +27,7 @@ const Layout = (props) => {
     return (
         <div className={classes.root} style={{ display: 'flex' }}>
             <TopBar />
-            <main className={classes.content} style={{ backgroundColor: 'grey', padding: '0px' }}>
+            <main className={classes.content} style={{ height:'100vh', backgroundColor: 'grey', padding: '0px' }}>
                 <div className={classes.toolbar} />
                 {children}
                 <Footer />
