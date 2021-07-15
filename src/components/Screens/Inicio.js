@@ -31,21 +31,23 @@ const Inicio = () => {
                     <Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
                         <Box style={{ paddingBottom: "20vmin" }} display="flex" >
                             <Box flexGrow={1} className={classes.Dentro}>
-                                <img src={logo} className="App-logo" alt="logo" />
+                                <a href="https://emmanueltc.github.io/inicio/">
+                                    <img src={logo} className="App-logo" alt="logo" />
+                                </a>
                                 {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
                             </Box>
                             <Box flexGrow={1} className={classes.Dentro}>
-                                <img style={{marginTop:"50px",width:"30vmin",height:"15vmin", margin: "7vmin 0px"}} id="slide" src={NET} className="NET_logo" alt="NETlogo" />
+                                <img style={{ marginTop: "50px", width: "30vmin", height: "15vmin", margin: "7vmin 0px" }} id="slide" src={NET} className="NET_logo" alt="NETlogo" />
                                 {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
                             </Box>
                         </Box>
                     </Container>
 
-{/*                    <img src={logo} className="App-logo" alt="logo" />
+                    {/*                    <img src={logo} className="App-logo" alt="logo" />
                     <img id="slide" src={NET} className="NET_logo" alt="NETlogo" />*/}
                     <h2><code>Emmanuel Trujillo Castillo</code></h2>
- {/*                   <FancyText>a</FancyText>*/}
-                    
+                    {/*                   <FancyText>a</FancyText>*/}
+
 
                     <p style={{ fontFamily: 'monospace' }}>
                         <Typical

@@ -27,7 +27,7 @@ const Footer = () => {
     const classes = useStyles();
     return (
         <div>
-            <Container style={{bottom:0, position:'absolute'/*position:'end'*/}} className={classes.footer} maxWidth="max">
+            <Container style={{bottom:0, /*position:'absolute'*/position:'end'}} className={classes.footer} maxWidth="max">
                 <Box display="flex" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Box flexGrow={1} display="flex">
                         <Box flexGrow={1}></Box>
