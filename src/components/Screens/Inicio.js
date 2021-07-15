@@ -1,14 +1,23 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import logo from '../../logo.svg';
-//import NS from '../../assets/NSLogo.png';
+import NET from '../../assets/NETlogo.png';
 import Typical from 'react-typical'
 //import FancyText from 'react-fancytext'
+import { Typography, Container, Box } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     otro: {
         height: 'auto'
     },
+    Dentro: {
+        width: "100px", height: "100px",
+        position: "relative", float: "left",
+        backgroundColor: "#000000",
+        margin: "0px 5px",
+        color: "#ffffff",
+        fontWeight: "bold"
+    }
 }))
 
 const Inicio = () => {
@@ -18,10 +27,26 @@ const Inicio = () => {
             <div style={{ height: "10px", backgroundColor: "#ffffff" }} />
             <div className="App">
                 <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
+
+                    <Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
+                        <Box style={{ paddingBottom: "20vmin" }} display="flex" >
+                            <Box flexGrow={1} className={classes.Dentro}>
+                                <img src={logo} className="App-logo" alt="logo" />
+                                {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
+                            </Box>
+                            <Box flexGrow={1} className={classes.Dentro}>
+                                <img style={{marginTop:"50px",width:"30vmin",height:"15vmin", margin: "7vmin 0px"}} id="slide" src={NET} className="NET_logo" alt="NETlogo" />
+                                {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
+                            </Box>
+                        </Box>
+                    </Container>
+
+{/*                    <img src={logo} className="App-logo" alt="logo" />
+                    <img id="slide" src={NET} className="NET_logo" alt="NETlogo" />*/}
                     <h2><code>Emmanuel Trujillo Castillo</code></h2>
  {/*                   <FancyText>a</FancyText>*/}
                     
+
                     <p style={{ fontFamily: 'monospace' }}>
                         <Typical
                             style={{ fontFamily: 'monospace' }}
