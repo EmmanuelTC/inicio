@@ -34,7 +34,7 @@ const TopBar = () => {
     const classes = useStyles();
     return (
         <div>
-            <AppBar display='flex' position="fixed">
+            <AppBar style={{height:"6.5vh"}} display='flex' position="fixed">
                 <Toolbar className={classes.toolbar}>
                     <Box justifyContent="flex-start"><Drawer classes={{paper: classes.paper}} /></Box>
 

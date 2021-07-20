@@ -31,24 +31,24 @@ const Inicio = () => {
     const classes = useStyles();
     return (
         <div className={classes.otro}>
-            <div style={{ height: "10px", backgroundColor: "#ffffff" }} />
+            <div style={{ height: "1vh", backgroundColor: "#ffffff" }} />
             <div className="App">
                 <header className="App-header">
 
                     <Box display="flex" width="100%" justifyContent="center" alignItems="center">
 
                         {/*<div style={{width:"10vh"}}/>*/}
-                        <Box width="20%">Item 2</Box>
+                        <Box width="20%">Item 1</Box>
                         <a href="https://emmanueltc.github.io/inicio/">
                             <img src={ReactJSsvg} className="App-logo" alt="logo" />
                         </a>
 
-                        <Box >Item 2</Box>
+                        <Box width="40%">Item 2</Box>
 
                         <a href="https://emmanueltc.github.io/inicio/">
                             <img style={{ marginTop: "50px", width: "30vmin", height: "15vmin", margin: "7vmin 0px" }} id="slide" src={NETsvg} className="NET_logo" alt="NETlogo" />
                         </a>
-                        <Box width="20%">Item 2</Box>
+                        <Box width="20%">Item 3</Box>
                     </Box>
 
                     <Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
