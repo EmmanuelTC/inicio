@@ -38,33 +38,29 @@ const Inicio = () => {
                     <Box display="flex" width="100%" justifyContent="center" alignItems="center">
 
                         {/*<div style={{width:"10vh"}}/>*/}
-                        <Box width="20%">Item 1</Box>
+                        <Box width="20%">{/*Item 1*/}</Box>
                         <a href="https://emmanueltc.github.io/inicio/">
                             <img src={ReactJSsvg} className="App-logo" alt="logo" />
                         </a>
 
-                        <Box width="40%">Item 2</Box>
+                        <Box width="40%">{/*Item 2*/}</Box>
 
-                        <a href="https://emmanueltc.github.io/inicio/">
+                        <a href="https://emmanueltc.github.io/net/">
                             <img style={{ marginTop: "50px", width: "30vmin", height: "15vmin", margin: "7vmin 0px" }} id="slide" src={NETsvg} className="NET_logo" alt="NETlogo" />
                         </a>
-                        <Box width="20%">Item 3</Box>
+                        <Box width="20%">{/*Item 3*/}</Box>
                     </Box>
 
-                    <Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
+                   {/*<Container style={{ padding: "10px", color: "#ffffff", fontSize: "20px" }} className={classes.footer} maxWidth="max" position="end">
                         <Box style={{ paddingBottom: "20vmin" }} display="flex" >
                             <Box flexGrow={1} className={classes.Dentro}>
-                                {/*<a href="https://emmanueltc.github.io/inicio/">*/}
                                 <img src={ReactJSsvg} className="App-logo" alt="logo" />
-                                {/*</a>*/}
-                                {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
                             </Box>
                             <Box flexGrow={1} className={classes.Dentro}>
                                 <img style={{ marginTop: "50px", width: "30vmin", height: "15vmin", margin: "7vmin 0px" }} id="slide" src={NET} className="NET_logo" alt="NETlogo" />
-                                {/*<Typography className={classes.PuntosHabilidades}>Punto 1</Typography>*/}
                             </Box>
                         </Box>
-                    </Container>
+                    </Container>*/}
 
                     {/*                    <img src={logo} className="App-logo" alt="logo" />
                     <img id="slide" src={NET} className="NET_logo" alt="NETlogo" />*/}

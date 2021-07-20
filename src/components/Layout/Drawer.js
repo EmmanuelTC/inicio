@@ -32,6 +32,8 @@ const useStyles = makeStyles({
     },
     paper: {
         background: 'black',
+//        padding: "0px",
+        minWidth:"100px",
         borderRightWidth:'10px',
         borderStyle:'solid',
         borderWidth:'0px',

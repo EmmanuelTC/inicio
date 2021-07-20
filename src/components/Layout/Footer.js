@@ -31,10 +31,10 @@ const Footer = () => {
                 <Box display="flex" style={{ paddingTop: '5px', paddingBottom: '5px' }}>
                     <Box flexGrow={1} display="flex">
                         <Box flexGrow={1}></Box>
-                        <Box style={{ display: 'flex' }} ><Typography className={classes.footerText} textShadow={10} variant="h6" >2021</Typography></Box>
+                        <Box style={{ display: 'flex' }} ><Typography className={classes.footerText} textShadow={10} variant="h6" style={{fontSize: "3vh"}} >2021</Typography></Box>
                     </Box>
-                    <Box display='flex'><img style={{paddingRight:'3px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png' width={50} alt="NS Logo Blanco" /></Box>
-                    <Box display='flex' flexGrow={1}><Typography className={classes.footerText} variant="h6" >EmmanuelTC</Typography></Box>
+                    <Box display='flex'><img style={{paddingRight:'3px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png' width={"47vh"} height={"47vh"} alt="NS Logo Blanco" /></Box>
+                    <Box display='flex' flexGrow={1}><Typography className={classes.footerText} variant="h6" style={{fontSize: "3vh"}} >EmmanuelTC</Typography></Box>
                 </Box>
             </Container>
         </div>
